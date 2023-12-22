@@ -1,0 +1,68 @@
+img{
+	height:250px;
+	width:300px;
+	display:inline-block;
+}
+.text{
+	position: relative;
+	text-align: center;
+	font-weight:bold;
+}
+#creator{
+	color:red;
+	font-size:30px;
+}
+#movies{
+	color:red;
+	font-size:30px;
+}
+#shows{
+	color:red;
+	font-size:30px;
+}
+#references{
+	color:red;
+	font-size:30px;
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.image-row{
+	display: flex;
+	justify-content: space-between;
+}
+h1{
+	text-align: center;
+	color: white;
+}
+.return{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100px;
+}
+table{
+	margin-left:auto;
+	margin-right:auto;
+	height:500px;
+	width: 50%;
+	color:white
+}
+tr{
+	text-align: center;
+}
+h3{
+	text-align: center;
+	color: white
+}
+#fight{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+body{
+	background-color: black;
+}
